@@ -1,6 +1,15 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
+  <title>Bootstrap 5 Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+
+
+
 <style>
 body {
 background-color: #AFB6FE;
@@ -9,10 +18,17 @@ font-size: 1.4em; font-weight: 600;
 </style>
 </head>
 <body>
-
+<div class="container-fluid p-5 bg-primary text-white text-center">
 <h1>Sources</h1>
+</div>
+
+<div class="container mt-5">
+  <div class="row">
+    <div class="col-sm-4">
 
 <p>Currents</p>
+
+
 <a href="https://www.abc.net.au/news/world">Australia ABC News</a><br />
 <a href="https://www.aljazeera.com/middle-east/">Al Jazeera</a><br />
 <a href="https://www.bangkokpost.com/">Bangkok Post</a><br />
@@ -53,7 +69,7 @@ font-size: 1.4em; font-weight: 600;
 
 
 
-<p>Americdan</p>
+<p>American</p>
 
 <a href="https://www.bostonglobe.com/">Boston Globe</a><br />
 <a href="https://www.chicagotribune.com/">Chicago Tribute</a><br />
@@ -68,12 +84,24 @@ font-size: 1.4em; font-weight: 600;
 <a href="https://www.seattletimes.com/todays-paper/">Seattle Times</a><br />
 <a href="https://www.washingtonpost.com/">WAPO</a><br />
 <br />
+</div>
 
 
-<p>Health, Medicine</p>
+<div class="col-sm-4">
+<p>Medicine: Clinical, Research</p>
+<a href="https://www.spl.org/online-resources/a-z-online-resources">SPL GALE Academic Db [Library Login]</a><br />
+<a href="https://www.ncbi.nlm.nih.gov/pmc/">NIH PubMed</a><br />
 
 <p>Journals</p>
+<a href="https://archive.org/details/journals">archive.org/journals</a><br /><br />
+<a href="https://www.cambridge.org/core/publications/open-access">Cambridge Open Access</a><br />
+<a href="https://doaj.org/">DOAJ Directory of Open Access Journals</a><br />
+<a href="https://scholar.google.com/">Google Scholar</a><br />
+<a href="https://www.jstor.org/">JSTOR</a><br />
+<a href="https://plos.org/">PLOS</a><br />
+</div>
 
+<div class="col-sm-4">
 
 <p>Reporters</p>
 
@@ -84,7 +112,9 @@ font-size: 1.4em; font-weight: 600;
 <p>Think Tanks</p>
 
 <p>Business</p>
-
+</div>
+</div>
+</div>
 </body>
 
 </html>
