@@ -34,6 +34,13 @@ processes:  ps -A | grep -i -n "myprog"
 </pre>
 
 |||| [ gdb ]
+<pre>g++ -g hello.cpp -o hello.exe 
+ [ don't forget -g flag ] 
+   gdb hello.exe 
+   layout next 
+   break main  
+   run
+</pree>
 <a href="https://sourceware.org/gdb/current/onlinedocs/gdb.html/index.html#SEC_Contents">gdb manual</a><br /><br />
 
 
